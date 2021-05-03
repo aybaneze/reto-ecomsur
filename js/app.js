@@ -1,7 +1,7 @@
 
 
  function datosJson() {
-    fetch('http://www.omdbapi.com/?i=tt0944947&Season=1&apikey=a0a37bfb')
+    fetch('https://www.omdbapi.com/?i=tt0944947&Season=1&apikey=a0a37bfb')
     .then( (respuesta) => {
         return respuesta.json();
     })
